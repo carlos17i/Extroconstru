@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "527937460804",
+    "firebase_url": "https://extrocontru-default-rtdb.firebaseio.com",
+    "project_id": "extrocontru",
+    "storage_bucket": "extrocontru.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527937460804:android:4b35b88149e9b94ca13a11",
+        "android_client_info": {
+          "package_name": "com.example.extrocontru"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQ02ESp_B1qQ8wwytn5-velIVkvH3xQqE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

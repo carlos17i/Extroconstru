@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminToolActivity">
+
+    <EditText
+        android:id="@+id/etToolId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID de la herramienta" />
+
+    <EditText
+        android:id="@+id/etToolName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre de la herramienta"
+        android:layout_below="@id/etToolId" />
+
+    <Spinner
+        android:id="@+id/spinnerCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etToolName"
+        android:entries="@array/categories_array" />
+
+    <Spinner
+        android:id="@+id/spinnerSubCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerCategory" />
+
+    <EditText
+        android:id="@+id/etBrand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Marca"
+        android:layout_below="@id/spinnerSubCategory" />
+
+    <EditText
+        android:id="@+id/etModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Modelo"
+        android:layout_below="@id/etBrand" />
+
+    <EditText
+        android:id="@+id/etDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripción"
+        android:layout_below="@id/etModel" />
+
+    <EditText
+        android:id="@+id/etPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Precio"
+        android:layout_below="@id/etDescription" />
+
+    <EditText
+        android:id="@+id/etStock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Stock"
+        android:layout_below="@id/etPrice" />
+
+    <EditText
+        android:id="@+id/etSpecifications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Especificaciones"
+        android:layout_below="@id/etStock" />
+
+    <EditText
+        android:id="@+id/etComments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Comentarios"
+        android:layout_below="@id/etSpecifications" />
+
+    <Button
+        android:id="@+id/btnAddImages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Agregar Imágenes"
+        android:layout_below="@id/etComments" />
+
+    <Button
+        android:id="@+id/btnSaveTool"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guardar Herramienta"
+        android:layout_below="@id/btnAddImages" />
+
+</RelativeLayout>
